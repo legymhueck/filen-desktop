@@ -1,8 +1,8 @@
 # Maintainer: MicLeh <micleh at proton dot me>
 pkgname=filen-desktop
 _pkgname=filen-desktop
-pkgver=3.0.49_rc9
-pkgrel=7
+pkgver=3.0.52
+pkgrel=1
 pkgdesc="Cloud storage desktop client for Filen (Built from source tag v3.0.49-rc9)"
 arch=('x86_64')
 url="https://filen.io"
