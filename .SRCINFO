@@ -1,0 +1,22 @@
+pkgbase = filen-desktop
+	pkgdesc = Cloud storage desktop client for Filen (Built from source)
+	pkgver = 3.0.53
+	pkgrel = 1
+	url = https://filen.io
+	arch = x86_64
+	license = AGPL-3.0-or-later
+	makedepends = git
+	makedepends = npm
+	makedepends = nodejs
+	depends = electron
+	depends = glibc
+	depends = zlib
+	depends = hicolor-icon-theme
+	provides = filen-desktop
+	conflicts = filen-desktop
+	conflicts = filen-desktop-git
+	conflicts = filen-desktop-bin-custom
+	source = filen-desktop::git+https://github.com/FilenCloudDienste/filen-desktop.git#tag=v3.0.53
+	sha256sums = 4da94e3caac36c1a8e01f0afb37208cf39add50d5272ad6ceed311b84745a587
+
+pkgname = filen-desktop
