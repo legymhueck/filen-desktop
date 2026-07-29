@@ -1,9 +1,9 @@
 # Maintainer: MicLeh <micleh at proton dot me>
 pkgname=filen-desktop
 _pkgname=filen-desktop
-pkgver=3.0.52
+pkgver=3.0.53
 pkgrel=1
-pkgdesc="Cloud storage desktop client for Filen (Built from source tag v3.0.49-rc9)"
+pkgdesc="Cloud storage desktop client for Filen (Built from source)"
 arch=('x86_64')
 url="https://filen.io"
 license=('AGPL-3.0-or-later')
@@ -14,7 +14,7 @@ conflicts=("${_pkgname}" "${_pkgname}-git" "${_pkgname}-bin-custom")
 
 _tagver="v${pkgver/_/-}"
 source=("${_pkgname}::git+https://github.com/FilenCloudDienste/filen-desktop.git#tag=${_tagver}")
-sha256sums=('SKIP')
+sha256sums=('4da94e3caac36c1a8e01f0afb37208cf39add50d5272ad6ceed311b84745a587')
 
 prepare() {
     cd "${srcdir}/${_pkgname}"
